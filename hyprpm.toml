@@ -1,0 +1,9 @@
+[repository]
+name = "hyprtabbed"
+authors = ["whax"]
+description = "Vertical side tab bar for window groups, with 90-degree rotated titles."
+
+[hyprtabbed]
+description = "suckless-tabbed-style vertical tab bar for Hyprland window groups."
+output = "hyprtabbed.so"
+build = ["make hyprtabbed.so"]
